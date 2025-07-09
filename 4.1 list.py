@@ -46,3 +46,26 @@ print(count)
 
 # 所有元素数量
 print(len(mylist3))
+
+# 练习
+test = [21,25,21,23,22,20]
+test.append(31)
+test1 = [29,33,30]
+test.extend(test1)
+test.remove(21)
+test.pop
+test.index(31)
+
+list5 = [1,2,3,4,5]
+def list_for_function(list):
+    for i in list:
+        print(i)
+list_for_function(list5)
+
+def list_while_function(list):
+    index = 0
+    while index < len(list):
+        print(list[index])
+        index += 1
+list_while_function(list5)
+
